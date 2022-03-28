@@ -1,0 +1,19 @@
+.header{
+    min-width:100vw;
+    display: flex;
+    height:4rem;
+   justify-content: space-between;
+   align-items: center;
+   background-color: var(--bg-color);
+}
+.header>*{
+    padding:0 2rem;
+}
+.header__items {
+  display: flex;
+  list-style: none;
+}
+.header__items >*{
+    padding: 0  1rem;
+    cursor: pointer;
+}
